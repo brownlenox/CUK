@@ -393,6 +393,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Conversion - NamedType WorkflowSendForApprovalEventDescTxt</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2642225345 - NamedType 4005917478" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No approval workflow for this record type is enabled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Custom Header Workflow - NamedType NoWorkflowEnabledErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2642225345 - NamedType 2973271800" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RUNWORKFLOWONCANCEL%1FORAPPROVAL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Custom Header Workflow - NamedType RUNWORKFLOWONCANCELFORAPPROVALCODE</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2642225345 - NamedType 3746337818" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RUNWORKFLOWONSEND%1FORAPPROVAL</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Custom Header Workflow - NamedType RUNWORKFLOWONSENDFORAPPROVALCODE</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2642225345 - NamedType 141642236" size-unit="char" translate="yes" xml:space="preserve">
+          <source> An Approval of %1 is cancelled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Custom Header Workflow - NamedType WorkflowCancelForApprEventDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2642225345 - NamedType 2827999786" size-unit="char" translate="yes" xml:space="preserve">
+          <source> An Approval of %1 is requested.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Custom Header Workflow - NamedType WorkflowSendForApprovalEventDescTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 23912005 - Method 876680168 - NamedType 1849505988" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Record</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1093,6 +1118,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Staff List Page - Control Staff ID - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1449266613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>std</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page std - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1449266613 - Control 2602849475 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Courses Enrolled field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page std - Control Courses Enrolled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1449266613 - Control 1677740807 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page std - Control CurrentStatus - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1097864850 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Student Image</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1494,24 +1534,29 @@
           <note from="Xliff Generator" annotates="general" priority="3">Profile CUKAdminProfile - Property ProfileDescription</note>
         </trans-unit>
         <trans-unit id="Enum 2469145152 - EnumValue 18652612 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Empty</source>
+          <source></source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum AcademicProgressStatus - EnumValue  - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2469145152 - EnumValue 1090351696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Active</source>
+        <trans-unit id="Enum 2469145152 - EnumValue 2913119229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum AcademicProgressStatus - EnumValue Active - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum AcademicProgressStatus - EnumValue Approved - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2469145152 - EnumValue 2109674627 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Graduated</source>
+        <trans-unit id="Enum 2469145152 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum AcademicProgressStatus - EnumValue Graduated - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum AcademicProgressStatus - EnumValue Open - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2469145152 - EnumValue 525852245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Inactive</source>
+        <trans-unit id="Enum 2469145152 - EnumValue 3549424228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending approval</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum AcademicProgressStatus - EnumValue Inactive - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum AcademicProgressStatus - EnumValue Pending approval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2469145152 - EnumValue 496445946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rejected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum AcademicProgressStatus - EnumValue Rejected - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1627338657 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open</source>

@@ -4,19 +4,22 @@ enum 50101 AcademicProgressStatus
 
     value(0; "")
     {
-        Caption = 'Empty';
+        Caption = '';
     }
-
-    value(1; Active)
+    value(1; Open)
     {
-        Caption = 'Active';
+        Caption = 'Open';
     }
-    value(2; Inactive)
+    value(2; "Pending approval")
     {
-        Caption = 'Inactive';
+        Caption = 'Pending approval';
     }
-    value(3; Graduated)
+    value(3; Approved)
     {
-        Caption = 'Graduated';
+        Caption = 'Approved';
+    }
+    value(4; Rejected)
+    {
+        Caption = 'Rejected';
     }
 }

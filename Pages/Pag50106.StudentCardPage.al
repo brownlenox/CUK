@@ -169,12 +169,12 @@ page 50106 StudentCardPage
                     trigger OnAction()
                     var
                         RecRef: RecordRef;
-                        Conversion: Codeunit conversion;
+                        CustomHdrworkflow: Codeunit "Custom Header Workflow";
 
                     begin
                         RecRef.GetTable(Rec);
-                        if Conversion.CheckApprovalsWorkflowEnabled(RecRef) then
-                            Conversion.OnSendForApproval(RecRef);
+                        if CustomHdrworkflow.CheckApprovalsWorkflowEnabled(RecRef) then
+                            CustomHdrworkflow.OnSendRecordForApproval(RecRef);
                         currpage.close
 
                     end;
@@ -192,11 +192,10 @@ page 50106 StudentCardPage
                     trigger OnAction()
                     var
                         RecRef: RecordRef;
-                        Conversion: Codeunit conversion;
-
+                        CustomHdrworkflow: Codeunit "Custom Header Workflow";
                     begin
                         RecRef.GetTable(Rec);
-                        Conversion.OnCancelApproval(RecRef);
+                        CustomHdrworkflow.OnCancelApprovalRecord(RecRef);
 
                     end;
                 }
@@ -329,4 +328,5 @@ page 50106 StudentCardPage
         OpenApprovalEntriesExistCurrUser, OpenApprovalEntriesExist, CanCancelApprovalForRecord
         , HasApprovalEntries : Boolean;
         ApprovalsMgmt: Codeunit "Approvals Mgmt.";
+
 }

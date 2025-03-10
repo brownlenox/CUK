@@ -69,6 +69,7 @@ table 50100 Student
         field(9; Status; Enum AcademicProgressStatus)
         {
             Caption = 'Status';
+            Editable = false;
         }
         field(10; Image; Media)
         {
